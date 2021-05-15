@@ -18,7 +18,7 @@ COMMCFG = _const()
 COMMCFG.url = "http://127.0.0.1:4723/wd/hub"
 
 COMMCFG.base_dir = os.path.split(os.path.split(os.path.abspath(__file__))[0])[0]
-COMMCFG.comm_dir = os.path.join(COMMCFG.base_dir,"comm")
+COMMCFG.comm_dir = os.path.join(COMMCFG.base_dir,"config")
 COMMCFG.tools_dir = os.path.join(COMMCFG.base_dir,"tools")
 COMMCFG.report_dir = os.path.join(COMMCFG.base_dir,"report")
 COMMCFG.logs_dir = os.path.join(COMMCFG.base_dir,"logs")

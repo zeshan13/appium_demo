@@ -3,7 +3,7 @@ import time
 import allure
 from appium import webdriver
 import pytest
-from appium_demo2.comm import config
+from appium_demo.appium_demo2.comm import config
 
 from typing import List
 
