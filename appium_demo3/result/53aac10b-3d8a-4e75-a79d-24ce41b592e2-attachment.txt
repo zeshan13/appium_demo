@@ -1,0 +1,13 @@
+2021-05-16 00:23:14 INFO init driver...
+2021-05-16 00:23:37 INFO find element ele=//*[@text='通讯录']
+2021-05-16 00:23:41 INFO find element ele=//*[@text='手动输入添加']
+2021-05-16 00:23:42 INFO find element ele=//*[contains(@text,'姓名')]/following-sibling::android.widget.EditText
+2021-05-16 00:23:43 INFO find element ele=//*[contains(@text,'性别')]/..//android.widget.ImageView
+2021-05-16 00:23:44 INFO find element ele=//*[contains(@text,'男')]
+2021-05-16 00:23:45 INFO find element ele=//*[contains(@text,'手机号')]/..//android.widget.EditText
+2021-05-16 00:23:45 INFO find element ele=com.tencent.wework:id/fco
+2021-05-16 00:23:45 INFO find element ele=//*[@text='保存']
+2021-05-16 00:23:46 INFO find element ele=com.tencent.wework:id/i63
+2021-05-16 00:23:46 INFO find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+2021-05-16 00:23:48 INFO app close..
+2021-05-16 00:23:50 INFO driver quit..

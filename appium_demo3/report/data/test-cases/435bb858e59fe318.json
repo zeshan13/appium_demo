@@ -1,0 +1,117 @@
+{
+  "uid" : "435bb858e59fe318",
+  "name" : "test_outside_clock_in",
+  "fullName" : "cases.test_clock_in.TestClockIn#test_outside_clock_in",
+  "historyId" : "a7470554f7634519855a5ae6c4e1a6e4",
+  "time" : {
+    "start" : 1621095866259,
+    "stop" : 1621095872904,
+    "duration" : 6645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClockIn",
+    "time" : {
+      "start" : 1621095830476,
+      "stop" : 1621095830476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1621095794055,
+      "stop" : 1621095794199,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "38ffb76d2789cf27",
+      "name" : "log",
+      "source" : "38ffb76d2789cf27.txt",
+      "type" : "text/plain",
+      "size" : 402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestClockIn::0",
+    "time" : {
+      "start" : 1621095874240,
+      "stop" : 1621095875849,
+      "duration" : 1609
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_clock_in"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClockIn"
+  }, {
+    "name" : "host",
+    "value" : "周耳朵"
+  }, {
+    "name" : "thread",
+    "value" : "11000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_clock_in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435bb858e59fe318.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+2021-05-16 00:23:50 INFO init driver...
+2021-05-16 00:24:06 INFO find element ele=//*[@text='工作台']
+2021-05-16 00:24:12 INFO find element ele=//*[contains(@text,"更新")]
+2021-05-16 00:24:13 INFO find element ele=//*[contains(@text,"更新下班卡")]
+2021-05-16 00:24:15 INFO find element ele=//*[contains(@text,"打卡已完成")]
+2021-05-16 00:24:18 INFO app close..

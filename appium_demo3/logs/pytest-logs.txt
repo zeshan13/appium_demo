@@ -1,0 +1,51 @@
+INFO     root:app.py:18 init driver...
+INFO     root:base_page.py:17 find element ele=//*[@text='通讯录']
+INFO     root:base_page.py:17 find element ele=//*[@text='手动输入添加']
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'姓名')]/following-sibling::android.widget.EditText
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'性别')]/..//android.widget.ImageView
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'男')]
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'手机号')]/..//android.widget.EditText
+INFO     root:base_page.py:17 find element ele=com.tencent.wework:id/fco
+INFO     root:base_page.py:17 find element ele=//*[@text='保存']
+INFO     root:base_page.py:17 find element ele=com.tencent.wework:id/i63
+INFO     root:base_page.py:27 find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+INFO     root:app.py:34 app close..
+INFO     root:app.py:38 driver quit..
+INFO     root:app.py:18 init driver...
+INFO     root:base_page.py:17 find element ele=//*[@text='工作台']
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,"更新")]
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,"更新下班卡")]
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,"打卡已完成")]
+INFO     root:app.py:34 app close..
+INFO     root:app.py:21 reuse driver...
+INFO     root:base_page.py:17 find element ele=//*[@text='工作台']
+INFO     root:base_page.py:17 find element ele=//*[@text='外出打卡']
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,"次外出")]
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,"打卡成功")]
+INFO     root:app.py:34 app close..
+INFO     root:app.py:38 driver quit..
+INFO     root:app.py:18 init driver...
+INFO     root:base_page.py:17 find element ele=//*[@text='通讯录']
+INFO     root:base_page.py:27 find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+INFO     root:base_page.py:17 find element ele=//*[@text='通讯录']
+INFO     root:base_page.py:20 find element ele=com.tencent.wework:id/i6d
+INFO     root:base_page.py:17 find element ele=//*[@resource-id="com.tencent.wework:id/b_x" and @text="编辑成员"]
+INFO     root:base_page.py:17 find element ele=//*[@text='删除成员']
+INFO     root:base_page.py:17 find element ele=//*[@text='确定']
+INFO     root:base_page.py:27 find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+INFO     root:app.py:34 app close..
+INFO     root:app.py:38 driver quit..
+INFO     root:app.py:18 init driver...
+INFO     root:base_page.py:17 find element ele=//*[@text='通讯录']
+INFO     root:base_page.py:27 find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+INFO     root:base_page.py:17 find element ele=//*[@text='通讯录']
+INFO     root:base_page.py:20 find element ele=com.tencent.wework:id/i6d
+INFO     root:base_page.py:17 find element ele=//*[@resource-id="com.tencent.wework:id/b_x" and @text="编辑成员"]
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'姓名')]/following-sibling::android.widget.EditText
+INFO     root:base_page.py:17 find element ele=//*[contains(@text,'性别')]/..//android.widget.ImageView
+INFO     root:base_page.py:20 find element ele=//*[contains(@text,'女')]
+INFO     root:base_page.py:17 find element ele=//*[@text='保存']
+INFO     root:base_page.py:20 find element ele=com.tencent.wework:id/i63
+INFO     root:base_page.py:27 find elements ele=//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView
+INFO     root:app.py:34 app close..
+INFO     root:app.py:38 driver quit..

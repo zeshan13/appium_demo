@@ -1,0 +1,7 @@
+2021-05-16 00:24:18 INFO reuse driver...
+2021-05-16 00:24:28 INFO find element ele=//*[@text='工作台']
+2021-05-16 00:24:31 INFO find element ele=//*[@text='外出打卡']
+2021-05-16 00:24:31 INFO find element ele=//*[contains(@text,"次外出")]
+2021-05-16 00:24:32 INFO find element ele=//*[contains(@text,"打卡成功")]
+2021-05-16 00:24:34 INFO app close..
+2021-05-16 00:24:35 INFO driver quit..

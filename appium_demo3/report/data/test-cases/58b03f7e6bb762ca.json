@@ -1,0 +1,117 @@
+{
+  "uid" : "58b03f7e6bb762ca",
+  "name" : "test_edit_member",
+  "fullName" : "cases.test_edit_member.TestEditMember#test_edit_member",
+  "historyId" : "3964a5d44eb06a2e5dc768c806b29edc",
+  "time" : {
+    "start" : 1621095922148,
+    "stop" : 1621095930900,
+    "duration" : 8752
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestEditMember",
+    "time" : {
+      "start" : 1621095906771,
+      "stop" : 1621095906771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1621095794055,
+      "stop" : 1621095794199,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab185f27f6785627",
+      "name" : "log",
+      "source" : "ab185f27f6785627.txt",
+      "type" : "text/plain",
+      "size" : 1139
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestEditMember::0",
+    "time" : {
+      "start" : 1621095932139,
+      "stop" : 1621095933414,
+      "duration" : 1275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_edit_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEditMember"
+  }, {
+    "name" : "host",
+    "value" : "周耳朵"
+  }, {
+    "name" : "thread",
+    "value" : "11000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_edit_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58b03f7e6bb762ca.json",
+  "parameterValues" : [ ]
+}

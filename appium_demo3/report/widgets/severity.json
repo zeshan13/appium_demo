@@ -1,0 +1,51 @@
+[ {
+  "uid" : "435bb858e59fe318",
+  "name" : "test_outside_clock_in",
+  "time" : {
+    "start" : 1621095866259,
+    "stop" : 1621095872904,
+    "duration" : 6645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "116e1855d246f22d",
+  "name" : "test_general_clock_in",
+  "time" : {
+    "start" : 1621095844089,
+    "stop" : 1621095855481,
+    "duration" : 11392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e6b100f6d7c84b",
+  "name" : "test_add_member",
+  "time" : {
+    "start" : 1621095813729,
+    "stop" : 1621095827088,
+    "duration" : 13359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51719866b45781f",
+  "name" : "test_del_member",
+  "time" : {
+    "start" : 1621095895813,
+    "stop" : 1621095903999,
+    "duration" : 8186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58b03f7e6bb762ca",
+  "name" : "test_edit_member",
+  "time" : {
+    "start" : 1621095922148,
+    "stop" : 1621095930900,
+    "duration" : 8752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
