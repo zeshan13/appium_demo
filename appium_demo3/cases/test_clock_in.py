@@ -4,6 +4,7 @@
 # @File    : test_clock_in.py
 from ..pages.app import App
 
+
 class TestClockIn:
     def setup_class(self):
         self.app = App()
@@ -21,4 +22,4 @@ class TestClockIn:
         self.main.goto_workbench().goto_general_clock_in().goto_clock_in_succeed().general_clock_in_succeed()
 
     def test_outside_clock_in(self):
-        self.main.goto_workbench().goto_general_clock_in().goto_ouside_clock_in().goto_clock_in_succeed().outside_clock_in_succedd()
+        self.main.goto_workbench().goto_general_clock_in().goto_ouside_clock_in().goto_clock_in_succeed().outside_clock_in_succeed()

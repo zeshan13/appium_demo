@@ -12,6 +12,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+
 class App(BasePage):
     def start(self):
         if self.driver == None:
@@ -21,7 +22,7 @@ class App(BasePage):
             logging.info("reuse driver...")
             self.driver.launch_app()
 
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(15)
         return self
 
     def restart(self):

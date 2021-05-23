@@ -8,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from ..pages.base_page import BasePage
 from ..pages.more_personal_detail_page import MorePersonalDetails
 
+
 class PersonalDetails(BasePage):
     def goto_more_personal_details(self):
         # 点击右上角三个点

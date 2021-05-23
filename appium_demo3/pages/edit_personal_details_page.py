@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from ..pages.base_page import BasePage
 
+
 class EditPersonalDetails(BasePage):
     def goto_persinal_details(self, name, sex):
         from appium_demo.appium_demo3.pages.personal_details_page import PersonalDetails

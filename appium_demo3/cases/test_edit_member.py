@@ -5,6 +5,7 @@
 import random
 from ..pages.app import App
 
+
 class TestEditMember:
     def setup_class(self):
         self.app = App()
@@ -20,11 +21,17 @@ class TestEditMember:
 
     def test_edit_member(self):
         member_list = self.main.goto_cantacts().get_member_list()
-        print(f"member_list\n{member_list}")
+        # 修改获取到通讯录列表，选择第一个成员进行编辑
         before_name = member_list[0]
+        # 修改后的name
         after_name = before_name + "_edit_test"
-        after_sex = random.choice(["男","女"])
-        after_member_list = self.main.goto_cantacts().goto_persional_details(
-            before_name).goto_more_personal_details().goto_edit_persional_details().goto_persinal_details(after_name,after_sex).goto_contacts().get_member_list()
-        print(f"after_member_list\n{after_member_list}")
-        assert after_name in after_member_list
+        # 随机返回性别
+        after_sex = random.choice(["男", "女"])
+        # 最后一步查找通讯录列表是否有after_name修改后的成员名称
+        result = self.main.goto_cantacts().goto_persional_details(
+            before_name).goto_more_personal_details().goto_edit_persional_details().goto_persinal_details(after_name,
+                                                                                                          after_sex).goto_contacts().get_member(
+            text=after_name)
+
+        # 断言result为True即元素存在
+        assert result == True

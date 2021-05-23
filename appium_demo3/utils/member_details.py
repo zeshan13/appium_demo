@@ -4,6 +4,7 @@
 # @File    : member_details.py
 from faker import Faker
 
+
 class MemberDetails:
     def __init__(self):
         self.faker = Faker('zh-CN')

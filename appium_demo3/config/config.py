@@ -3,7 +3,10 @@
 # @Author  : zeshan
 # @File    : config.py
 import os
+
+
 class ConstError(Exception): pass
+
 
 class _const(object):
     def __setattr__(self, k, v):
@@ -11,6 +14,7 @@ class _const(object):
             raise ConstError
         else:
             self.__dict__[k] = v
+
 
 COMMCFG = _const()
 COMMCFG.url = "http://127.0.0.1:4723/wd/hub"

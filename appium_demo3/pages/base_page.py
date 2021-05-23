@@ -8,6 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 logging.basicConfig(level=logging.INFO)
 
+
 class BasePage:
     def __init__(self, driver: webdriver = None):
         self.driver = driver
@@ -31,3 +32,11 @@ class BasePage:
             logging.info("find elements ele=%s", by[1])
         return ele_obj
 
+    def find_by_text(self, by, text, ele=None):
+        if ele:
+            ele = ele.replace("{text}", text)
+            ele_obj = self.find(by, ele)
+        else:
+            by = (by[0], by[1].replace("{text}", text))
+            ele_obj = self.find(*by)
+        return ele_obj

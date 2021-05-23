@@ -6,6 +6,7 @@ from appium.webdriver.common.mobileby import MobileBy
 from ..pages.base_page import BasePage
 from ..pages.personal_details_page import PersonalDetails
 
+
 class Contacts(BasePage):
     def goto_add_member(self):
         from appium_demo.appium_demo3.pages.add_member_page import AddMember
@@ -25,7 +26,16 @@ class Contacts(BasePage):
         return PersonalDetails(self.driver)
 
     def get_member_list(self):
+        # 不稳定，无法获取所有列表成员，仅获取到已加载的成员。页面下滑定位【企业通讯录】失败
         elements_obj = self.finds(MobileBy.XPATH,
                                   '//*[@text="企业通讯录"]/../following-sibling::android.widget.RelativeLayout//android.widget.TextView')
         member_list = [i.text for i in elements_obj]
         return member_list
+
+    def get_member(self, text):
+        try:
+            self.find_by_text(by=(MobileBy.XPATH,
+                                  '//*[@text="{text}"]'), text=text)
+            return True
+        except Exception:
+            return False

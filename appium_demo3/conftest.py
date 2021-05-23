@@ -10,6 +10,7 @@ from typing import List
 
 cfg = config.COMMCFG
 
+
 def ptest_collection_modifyitems(
         session: "Session", config: "Config", items: List["Item"]
 ) -> None:

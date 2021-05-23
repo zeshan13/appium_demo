@@ -7,6 +7,7 @@ from ..pages.base_page import BasePage
 from ..pages.contacts_page import Contacts
 from ..pages.workbench_page import Workbench
 
+
 class MainPage(BasePage):
     def goto_cantacts(self):
         self.find(MobileBy.XPATH, "//*[@text='通讯录']").click()

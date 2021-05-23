@@ -8,6 +8,7 @@ from ..pages.base_page import BasePage
 from ..pages.clock_in_succeed_page import ClockInSucceed
 from ..pages.outside_clock_in_page import OutsideClockIn
 
+
 class GeneralClockIn(BasePage):
     def goto_clock_in_succeed(self):
         try:
@@ -16,6 +17,9 @@ class GeneralClockIn(BasePage):
             #  已打卡，点击【更新】
             self.find(MobileBy.XPATH, '//*[contains(@text,"更新")]').click()
             self.find(MobileBy.XPATH, '//*[contains(@text,"更新下班卡")]').click()
+        else:
+            return NoSuchElementException
+
         return ClockInSucceed(self.driver)
 
     def goto_ouside_clock_in(self):

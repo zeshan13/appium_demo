@@ -6,6 +6,7 @@ from appium.webdriver.common.mobileby import MobileBy
 from ..pages.base_page import BasePage
 from ..pages.clock_in_succeed_page import ClockInSucceed
 
+
 class OutsideClockIn(BasePage):
     def goto_clock_in_succeed(self):
         # 点击【第n次打卡】

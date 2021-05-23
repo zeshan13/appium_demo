@@ -5,6 +5,7 @@
 from ..pages.base_page import BasePage
 from ..pages.general_clock_in_page import GeneralClockIn
 
+
 class Workbench(BasePage):
     def goto_general_clock_in(self):
         # 滚动寻找并点击【打卡】"
